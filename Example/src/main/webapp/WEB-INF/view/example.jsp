@@ -9,7 +9,7 @@
 
 <body>
     <table>
-        <c: forEach var="example" items="${customerList}">
+        <c:forEach var="example" items="${customerList}">
             <tr>
                 <td>${example.name}</td>
                 <td>${example.age}</td>
